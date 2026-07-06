@@ -14,7 +14,7 @@ public class Client {
 
             PrintWriter writer = new PrintWriter(socket.getOutputStream(), true);
 
-            writer.println("a networking demo");
+            writer.println("A networking Demo");
 
             writer.close();
             socket.close();
